@@ -8,18 +8,17 @@ pkg_vars = {}
 #    exec(fp.read(), pkg_vars)
 
 setup(
-    name='cfddns',
-    #version=pkg_vars['__version__'],
+    name='ddns',
     author='Selçuk Karakayalı',
     author_email='skarakayali@gmail.com',
-    url='https://github.com/karakays/cf-ddns',
-    #description='Find out who has unfollowed you on Twitter',
+    url='https://github.com/karakays/ddns',
+    description='Dynamically update DNS records of enclosing environment',
     install_requires=['requests>=2.21.0'],
     license='MIT',
     packages=find_packages(),
     python_requires='>=3.6',
-    #keywords=['twitter', 'followers', 'authentication'],
-    #long_description=open('README.rst').read(),
+    keywords=['dns', 'ddns', 'ip-address'],
+    long_description=open('README.rst').read(),
     entry_points={
         'console_scripts': [ 'ddns = cfddns.__main__:main' ]
     },
