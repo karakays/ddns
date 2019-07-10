@@ -10,6 +10,12 @@ Currently supported DNS hosting providers:
 
 This tool is described as part of my blog post. To see how I use it, check blog.karakays.com/how-I-connect-home-remotely.
 
+
+---------------
+Requirements
+---------------
+apt install dnsutils
+
 ---------------
 Installation
 ---------------
