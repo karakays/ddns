@@ -45,10 +45,9 @@ def resolve_addr():
     dig_cmd = 'dig +short myip.opendns.com @resolver1.opendns.com'
     cp = subprocess.run(dig_cmd.split(),
                    check=True,
-                   text=True,
                    stdout=subprocess.PIPE,
                    stderr=subprocess.PIPE)
-    return cp.stdout.strip()
+    return cp.stdout.decode().strip()
 
 
 def main():
