@@ -1,0 +1,13 @@
+# Systemd unit file for ddns
+[Unit]
+Description=Update DNS address record of the host
+
+[Service]
+Type=oneshot
+
+Environment=CF_API_KEY=changeit
+Environment=CF_EMAIL=changeit
+Environment=CF_ZONE=changeit
+Environment=CF_DOMAIN=changeit
+
+ExecStart=/usr/local/bin/ddns
