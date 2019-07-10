@@ -14,10 +14,10 @@ setup(
     license='MIT',
     packages=find_packages(),
     python_requires='>=3.6',
-    keywords=['dns', 'ddns', 'ip-address'],
+    keywords=['dns', 'dynamic dns', 'ip address'],
     long_description=open('README.rst').read(),
     entry_points={
-        'console_scripts': [ 'ddns = cfddns.__main__:main' ]
+        'console_scripts': [ 'ddns = ddns.__main__:main' ]
     },
     classifiers=[ "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
