@@ -8,7 +8,7 @@ Currently supported DNS hosting providers:
 
 - Cloudflare
 
-This tool is described as part of my blog post. To see how I use it, check blog.karakays.com/how-I-connect-home-remotely.
+This tool is described as part of my blog post. To see how I use it, check `blog.karakays.com/how-I-do-connect-home-from-remote`_.
 
 
 ---------------
@@ -20,13 +20,13 @@ apt install dnsutils
 Installation
 ---------------
 
-Clone this repository and install
+Install it from source. Clone this repository and run
 
 .. code:: bash
 
    $ pip install .
 
-Set your CloudFlare credentials & details
+Next, set your CloudFlare credentials & other details in environmental variables.
 
 .. code:: bash
 
@@ -47,4 +47,4 @@ Authors
 
 Selçuk Karakayalı <skarakayali@gmail.com>
 
-.. _homepage: https://jwz.org
+.. _blog.karakays.com/how-I-do-connect-home-from-remote: https://blog.karakays.com/how-i-do-connect-home-from-remote
